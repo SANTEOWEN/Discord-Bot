@@ -10,5 +10,12 @@ def handle_response(message) -> str:
     
     if p_message == 'help':
         return "`this is a help fucking message that you can modify.`"
+    
+    if p_message == 'lamaw':
+        return("Hi I am Taskital! and i was created by NEWO ETNAS")
+    
+    if p_message == 'Give me your money':
+        return('No way dude!')
 
-    return "Dont fucking talk to me"
+    else:
+        print("yawa")
